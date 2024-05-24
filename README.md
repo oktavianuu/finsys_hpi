@@ -1,6 +1,6 @@
 # HPI Financial Management System
 
-A financial management system designed for a small oil plantation named HPI. This system helps manage expenses, revenues, inventory, and payroll efficiently.
+A financial management system designed for a small organisation. This system helps manage expenses, revenues, inventory, and payroll efficiently.
 
 ## Features
 
