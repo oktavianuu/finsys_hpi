@@ -6,8 +6,8 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///hpi_financials.db'
 db.init_app(app)
 
-@app.before_first_request
-def create_tables():
+# Initialize the database
+with app.app_context():
     db.create_all()
 
 @app.route('/expenses', methods=['POST'])
